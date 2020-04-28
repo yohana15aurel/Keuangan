@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#91D3FF</item>
+        <item name="colorPrimaryDark">#91D3FF</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ToolbarStyle">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <!--<item name="android:background">@color/colorPrimary</item>-->
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlHighlight">#3fff</item>
+
+    </style>
+
+</resources>
